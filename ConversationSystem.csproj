@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ConversationSystem</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="StardewModdingAPI" />
+    <Reference Include="SorryLabCore" />
+    <Reference Include="Stardew Valley" />
+    <Reference Include="SpaceCore" />
+    <Reference Include="StardewValley.GameData" />
+    <Reference Include="MonoGame.Framework" />
+    <Reference Include="SMAPI.Toolkit.CoreInterfaces" />
+  </ItemGroup>
+</Project>

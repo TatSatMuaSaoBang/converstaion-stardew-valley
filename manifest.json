@@ -1,0 +1,28 @@
+{
+    "Name": "ConversationSystem",
+    "Author": "YunHikari",
+    "Version": "1.0.4",
+    "Description": "This is a Mod in Stardew Valley where players inquire about news from NPCs. They provide interesting information, perhaps even offer direct assistance, and may uncover additional secrets.",
+    "UniqueID": "YunHikari.ConversationSystem",
+    "EntryDll": "ConversationSystem.dll",
+    "MinimumApiVersion": "4.0.2",
+    "UpdateKeys": [
+        "Nexus:35054"
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "MinimumVersion": "1.21.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "YunHikari.SorryLabCore",
+            "MinimumVersion": "1.0.11",
+            "IsRequired": true
+        }
+    ]
+}
